@@ -4,7 +4,9 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int []nums=new int[10];
+        Scanner sc=new Scanner(System.in);
+        int x=sc.nextint();    
+        int [] nums = new int[10];
         int cnt=0;
         for(int i=0;i<nums.length;++i)
         {
@@ -13,6 +15,5 @@ public class Main
             else continue;
         }
         System.out.println(cnt);
-
     }
 }
